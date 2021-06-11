@@ -4,7 +4,7 @@ title: 'Quinti Horatii Flacci emblemata  imaginibus in aes incisis, notisq[ue] i
 tagline: ", an annotated digital edition"
 description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
 url: 
-baseurl: ''
+baseurl: /readux_legacy_quinti_horatii_testfromdownloadedzip_20210611
 gems:
 - jekyll-sitemap
 author:

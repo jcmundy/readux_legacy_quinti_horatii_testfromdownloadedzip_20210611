@@ -3,8 +3,8 @@ permalink: pretty
 title: 'Quinti Horatii Flacci emblemata  imaginibus in aes incisis, notisq[ue] illustrata '
 tagline: ", an annotated digital edition"
 description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
-url: 
-baseurl: ''
+url: https://jcmundy.github.io/
+baseurl: /readux_legacy_quinti_horatii_testfromdownloadedzip_20210611
 gems:
 - jekyll-sitemap
 author:

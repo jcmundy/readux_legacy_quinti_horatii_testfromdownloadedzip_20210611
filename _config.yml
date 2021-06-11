@@ -1,0 +1,67 @@
+---
+permalink: pretty
+title: 'Quinti Horatii Flacci emblemata  imaginibus in aes incisis, notisq[ue] illustrata '
+tagline: ", an annotated digital edition"
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+url: 
+baseurl: ''
+gems:
+- jekyll-sitemap
+author:
+  name: An Author
+  url: 
+  email: 
+  twitter: 
+version: 0.7
+homepage_image: https://readux.ecds.emory.edu/books/emory:b6zxc/pages/emory:gkkp5/single-page/
+show_annotation_author: true
+source_info:
+  title: 'Quinti Horatii Flacci emblemata  imaginibus in aes incisis, notisq[ue] illustrata '
+  author: Veen, Otto van, 1556-1629.
+  date: '1612'
+  url: https://readux.ecds.emory.edu/books/emory:b6zxc/
+  pdf_url: https://readux.ecds.emory.edu/books/emory:b6zxc/pdf/#page=2
+  via_readux: true
+publication_info:
+  title: Quinti Horatii Flacci emblemata  imaginibus in aes incisis, notisq[ue] illustrata
+    , an annotated digital edition
+  date: '2021'
+  author: Veen, Otto van, 1556-1629.
+  editors:
+  - Joanna Mundy
+  tei_xml: tei.xml
+image_size:
+  page:
+    width: 767
+    height: 1000
+  thumbnail:
+    width: 230
+    height: 300
+  small-thumbnail:
+    width: 76
+    height: 100
+collections:
+  annotations:
+    output: true
+    permalink: "/annotations/:path/"
+  volume_pages:
+    output: true
+    permalink: "/pages/:path/"
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    layout: volume_page
+    short_label: p.
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
